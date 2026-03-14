@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+*.log
+
+# Models
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data (except sample data)
+*.csv
+!sample_data.csv
+*.xlsx
+*.json
+!sample_config.json
