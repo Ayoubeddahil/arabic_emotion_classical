@@ -52,18 +52,3 @@ def clean_arabic_text(text):
 
 def batch_clean_texts(texts):
     return [clean_arabic_text(t) for t in texts]
-
-    
-
-
-test_phrases = [
-    "حقوق المرأة في الإسلام",
-    "الجو جميل جداً اليوم!",
-    "أنا حزين بسبب النتائج"
-]
-
-for p in test_phrases:
-    clean = clean_arabic_text(p)
-    print(f"Original : {p}")
-    print(f"Cleaned  : {clean}")
-    print("-" * 20)
